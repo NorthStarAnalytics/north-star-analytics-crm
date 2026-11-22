@@ -221,3 +221,44 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ============================================================
+# NORTH STAR ANALYTICS CRM — PRIVACY & SECURITY
+# ============================================================
+
+# Google authentication and credentials
+credentials.json
+token.json
+client_secret*.json
+service_account*.json
+*service-account*.json
+*.pem
+*.key
+
+# Environment files
+.env.*
+!.env.example
+
+# Private CRM and client information
+private_data/
+client_data/
+backups/
+*.sqlite
+*.db
+
+# Local configuration containing private identifiers
+config.local.json
+settings.local.json
+
+# Private CRM data exports
+*_private.csv
+*_confidential.csv
+*_client_export.csv
+
+# Temporary Microsoft Office files
+~$*
+
+# macOS files
+.DS_Store
+
